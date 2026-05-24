@@ -1,0 +1,53 @@
+{
+  "actions_enabled": false,
+  "enforcement": false,
+  "future_action_principles": [
+    "opt_in_only",
+    "dry_run_first",
+    "preview_before_execution",
+    "rollback_plan_before_execution",
+    "private_local_action_report_required",
+    "public_output_redacted",
+    "no_action_from_broad_scan_result_alone",
+    "explicit_profile_and_target_class_approval_required"
+  ],
+  "lockout_prevention_requirements": [
+    "never_disable_all_network_paths",
+    "never_block_loopback_services",
+    "never_modify_firewall_defaults_without_restore_file",
+    "never_kill_critical_user_session_shell_ssh_desktop_network_or_package_manager_processes",
+    "never_change_ownership_or_permissions_recursively",
+    "never_touch_credential_key_wallet_browser_profile_password_manager_or_hidden_home_paths",
+    "never_modify_system_roots",
+    "never_act_on_external_drives_or_network_mounts_without_separate_approval_phase"
+  ],
+  "mode": "MVP8_RELEASE_GATE_REVIEW_ONLY",
+  "no_action_guards": [
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_firewall_changes",
+    "no_wifi_changes",
+    "no_bluetooth_changes",
+    "no_usb_changes",
+    "no_process_kill",
+    "no_lockdown"
+  ],
+  "product": "Citadel A.R.M.O.R.",
+  "remediation_enabled": false,
+  "required_future_gates": [
+    "allowlist_validation_helper",
+    "rollback_manifest_format",
+    "action_preview_format",
+    "explicit_operator_confirmation_phrase",
+    "emergency_stop_file_check",
+    "action_ledger",
+    "post_action_verification",
+    "release_freeze_checkpoint"
+  ],
+  "review_only": true,
+  "safety_note": "Release gate review only. No files scanned, opened, moved, deleted, quarantined, blocked, killed, isolated, or modified.",
+  "scan_executed": false,
+  "timestamp": "REDACTED_TIMESTAMP"
+}

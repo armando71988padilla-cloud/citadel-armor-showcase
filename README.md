@@ -53,6 +53,8 @@ Current safety boundary:
 - HANDOFF_MVP6_SEALED.md
 - MVP7_SAFE_TARGET_POLICY_PLAN.md
 - MVP7_SAFE_TARGET_POLICY_FREEZE_STATUS.md
+- MVP8_RELEASE_PATH_LOCKOUT_PLAN.md
+- MVP8_RELEASE_GATE_FREEZE_STATUS.md
 - reports/status_public_sample.json
 - reports/baseline_public_sample.json
 - reports/scan_public_sample.json
@@ -62,6 +64,7 @@ Current safety boundary:
 - reports/quick_downloads_chunk_public_sample.json
 - reports/quick_downloads_aggregate_public_sample.json
 - reports/policy_public_sample.json
+- reports/release_gate_public_sample.json
 
 ## Local private files
 
@@ -118,6 +121,10 @@ Review aggregate quick_downloads chunk reports safely:
 Review safe target policy:
 
     python3 armor_policy.py --public
+
+Review release gate requirements:
+
+    python3 armor_release_gate.py --public
 
 Run the approved read-only self-check scan:
 
