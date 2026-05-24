@@ -1,0 +1,62 @@
+{
+  "action_id": "REVIEW_ONLY_ACTION_ID",
+  "action_type": "future_review_only_action",
+  "actions_enabled": false,
+  "backup_path": "REQUIRED_BEFORE_FUTURE_ACTION",
+  "created_at": "REDACTED_TIMESTAMP",
+  "emergency_stop_checked": false,
+  "enforcement": false,
+  "manifest_version": "0.1-review-only",
+  "mode": "MVP10_ROLLBACK_MANIFEST_REVIEW_ONLY",
+  "no_action_guards": [
+    "no_restore_execution",
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_firewall_changes",
+    "no_wifi_changes",
+    "no_bluetooth_changes",
+    "no_usb_changes",
+    "no_process_kill",
+    "no_lockdown"
+  ],
+  "operator_confirmation_required": true,
+  "post_action_hash": "REQUIRED_AFTER_FUTURE_ACTION",
+  "pre_action_hash": "REQUIRED_BEFORE_FUTURE_ACTION",
+  "product": "Citadel A.R.M.O.R.",
+  "remediation_enabled": false,
+  "required_rollback_fields": [
+    "manifest_version",
+    "action_id",
+    "action_type",
+    "target",
+    "target_class",
+    "operator_confirmation_required",
+    "pre_action_hash",
+    "post_action_hash",
+    "backup_path",
+    "restore_preview",
+    "emergency_stop_checked",
+    "created_at"
+  ],
+  "restore_executed": false,
+  "restore_preview": {
+    "available": false,
+    "reason": "MVP10 is review-only and does not generate executable restore commands."
+  },
+  "review_only": true,
+  "rollback_requirements": [
+    "backup_must_exist_before_action",
+    "target_hash_must_be_recorded_before_action",
+    "restore_preview_must_be_human_readable",
+    "emergency_stop_file_must_be_checked",
+    "action_ledger_entry_required",
+    "post_action_verification_required",
+    "manual_confirmation_required_before_any_future_restore"
+  ],
+  "safety_note": "Rollback manifest review only. No files are restored, moved, deleted, quarantined, blocked, killed, isolated, or modified.",
+  "scan_executed": false,
+  "target": "reports/example_public_sample.json",
+  "target_class": "public_sample"
+}
