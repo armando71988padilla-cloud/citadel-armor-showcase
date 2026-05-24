@@ -1,0 +1,60 @@
+{
+  "actions_enabled": false,
+  "allowed_profiles": [
+    "public_showcase",
+    "quick_downloads",
+    "self_check"
+  ],
+  "allowed_targets": [
+    {
+      "decision": "allowed",
+      "reason": "matches_review_only_profile_root",
+      "target": "status"
+    },
+    {
+      "decision": "allowed",
+      "reason": "matches_review_only_profile_root",
+      "target": "baseline"
+    },
+    {
+      "decision": "allowed",
+      "reason": "matches_review_only_profile_root",
+      "target": "reports"
+    },
+    {
+      "decision": "allowed",
+      "reason": "matches_review_only_profile_root",
+      "target": "rules"
+    }
+  ],
+  "denied_targets": [
+    {
+      "decision": "denied",
+      "reason": "denied_system_or_private_path",
+      "target": "/etc/passwd"
+    },
+    {
+      "decision": "denied",
+      "reason": "denied_system_or_private_path",
+      "target": "~/.ssh/id_rsa"
+    },
+    {
+      "decision": "denied",
+      "reason": "outside_profile_allowlist",
+      "target": "unknown/path"
+    }
+  ],
+  "enforcement": false,
+  "mode": "MVP9_ALLOWLIST_VALIDATION_REVIEW_ONLY",
+  "profile": "self_check",
+  "remediation_enabled": false,
+  "review_only": true,
+  "scan_executed": false,
+  "summary": {
+    "allowed_count": 4,
+    "denied_count": 3,
+    "target_count": 7,
+    "unresolved_count": 0
+  },
+  "unresolved_targets": []
+}
