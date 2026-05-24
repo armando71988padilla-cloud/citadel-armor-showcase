@@ -55,6 +55,7 @@ Current safety boundary:
 - MVP7_SAFE_TARGET_POLICY_FREEZE_STATUS.md
 - MVP8_RELEASE_PATH_LOCKOUT_PLAN.md
 - MVP8_RELEASE_GATE_FREEZE_STATUS.md
+- HANDOFF_MVP8_SEALED.md
 - reports/status_public_sample.json
 - reports/baseline_public_sample.json
 - reports/scan_public_sample.json
