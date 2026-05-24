@@ -64,6 +64,8 @@ Current safety boundary:
 - MVP11_ACTION_PREVIEW_FREEZE_STATUS.md
 - MVP12_ACTION_LEDGER_PLAN.md
 - MVP12_ACTION_LEDGER_FREEZE_STATUS.md
+- MVP13_POST_ACTION_VERIFY_PLAN.md
+- MVP13_POST_ACTION_VERIFY_FREEZE_STATUS.md
 - reports/status_public_sample.json
 - reports/baseline_public_sample.json
 - reports/scan_public_sample.json
@@ -78,6 +80,7 @@ Current safety boundary:
 - reports/rollback_manifest_public_sample.json
 - reports/action_preview_public_sample.json
 - reports/action_ledger_public_sample.json
+- reports/post_action_verify_public_sample.json
 
 ## Local private files
 
