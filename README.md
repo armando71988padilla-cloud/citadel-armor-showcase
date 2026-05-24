@@ -60,6 +60,8 @@ Current safety boundary:
 - MVP9_ALLOWLIST_VALIDATION_FREEZE_STATUS.md
 - MVP10_ROLLBACK_MANIFEST_PLAN.md
 - MVP10_ROLLBACK_MANIFEST_FREEZE_STATUS.md
+- MVP11_ACTION_PREVIEW_PLAN.md
+- MVP11_ACTION_PREVIEW_FREEZE_STATUS.md
 - reports/status_public_sample.json
 - reports/baseline_public_sample.json
 - reports/scan_public_sample.json
@@ -72,6 +74,7 @@ Current safety boundary:
 - reports/release_gate_public_sample.json
 - reports/allowlist_validation_public_sample.json
 - reports/rollback_manifest_public_sample.json
+- reports/action_preview_public_sample.json
 
 ## Local private files
 
