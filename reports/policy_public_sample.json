@@ -1,0 +1,60 @@
+{
+  "allowed_profile_classes": [
+    {
+      "execution": "review_only_scan",
+      "name": "armor_self_check",
+      "notes": "Used to review ARMOR source safety without expanding target scope.",
+      "scope": "root_level_armor_python_files_only"
+    },
+    {
+      "execution": "preflight_only_no_files_opened",
+      "name": "quick_downloads_preflight",
+      "notes": "Counts candidate files and directories without printing filenames or opening files.",
+      "scope": "user_downloads_counts_only"
+    },
+    {
+      "execution": "read_only_chunked_scan",
+      "name": "quick_downloads_chunk",
+      "notes": "Requires explicit batch index and bounded batch size.",
+      "scope": "bounded_user_downloads_batches"
+    }
+  ],
+  "denied_target_classes": [
+    "system_roots",
+    "hidden_home_directories",
+    "browser_profiles",
+    "ssh_gpg_password_manager_wallet_token_key_credential_paths",
+    "mounted_external_drives_without_separate_approval",
+    "network_mounts",
+    "project_vaults",
+    "private_logs",
+    "ignored_runtime_state"
+  ],
+  "deny_by_default": true,
+  "enforcement": false,
+  "future_action_gates": [
+    "separate_release_path_required",
+    "lockout_prevention_required",
+    "explicit_allowlist_required",
+    "manual_review_required",
+    "no_default_remediation"
+  ],
+  "mode": "MVP7_SAFE_TARGET_POLICY_REVIEW_ONLY",
+  "no_action_guards": [
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_firewall_changes",
+    "no_wifi_changes",
+    "no_bluetooth_changes",
+    "no_usb_changes",
+    "no_process_kill",
+    "no_lockdown"
+  ],
+  "product": "Citadel A.R.M.O.R.",
+  "review_only": true,
+  "safety_note": "Policy review only. No files scanned, opened, moved, deleted, quarantined, or modified.",
+  "scan_executed": false,
+  "timestamp": "REDACTED_TIMESTAMP"
+}
