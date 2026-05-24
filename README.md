@@ -58,6 +58,8 @@ Current safety boundary:
 - HANDOFF_MVP8_SEALED.md
 - MVP9_ALLOWLIST_VALIDATION_PLAN.md
 - MVP9_ALLOWLIST_VALIDATION_FREEZE_STATUS.md
+- MVP10_ROLLBACK_MANIFEST_PLAN.md
+- MVP10_ROLLBACK_MANIFEST_FREEZE_STATUS.md
 - reports/status_public_sample.json
 - reports/baseline_public_sample.json
 - reports/scan_public_sample.json
@@ -68,6 +70,8 @@ Current safety boundary:
 - reports/quick_downloads_aggregate_public_sample.json
 - reports/policy_public_sample.json
 - reports/release_gate_public_sample.json
+- reports/allowlist_validation_public_sample.json
+- reports/rollback_manifest_public_sample.json
 
 ## Local private files
 
