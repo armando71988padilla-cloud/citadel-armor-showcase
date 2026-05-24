@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.bak
+*.bak_*
+*.tmp
+*.local
+*.log
+*.pid
+.env
+state/
+baseline/
+logs/
+vault/
+whitelist/

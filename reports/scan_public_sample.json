@@ -1,0 +1,78 @@
+{
+  "dependencies": {
+    "clamscan": "present",
+    "file": "present",
+    "find": "present",
+    "freshclam": "present",
+    "sha256sum": "present",
+    "yara": "present"
+  },
+  "mode": "MVP2_SCAN_PLANNING_ONLY",
+  "no_action_guards": [
+    "no_file_scan_execution",
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_firewall_changes",
+    "no_wifi_changes",
+    "no_bluetooth_changes",
+    "no_usb_blocking",
+    "no_lockdown"
+  ],
+  "product": "Citadel A.R.M.O.R.",
+  "profiles": {
+    "citadel_armor_self_check": {
+      "description": "Review A.R.M.O.R. source files only. No scanning engine execution yet.",
+      "paths": [
+        "~/citadel-ai/armor"
+      ],
+      "risk": "low",
+      "status": "planned_not_executed"
+    },
+    "mounted_usb_review": {
+      "description": "Future explicit review of mounted removable media.",
+      "paths": [
+        "/media"
+      ],
+      "risk": "high_requires_operator_review",
+      "status": "planned_not_executed"
+    },
+    "quick_desktop": {
+      "description": "Future conservative scan of ~/Desktop.",
+      "paths": [
+        "~/Desktop"
+      ],
+      "risk": "medium",
+      "status": "planned_not_executed"
+    },
+    "quick_documents": {
+      "description": "Future conservative scan of ~/Documents.",
+      "paths": [
+        "~/Documents"
+      ],
+      "risk": "medium",
+      "status": "planned_not_executed"
+    },
+    "quick_downloads": {
+      "description": "Future conservative scan of ~/Downloads.",
+      "paths": [
+        "~/Downloads"
+      ],
+      "risk": "medium",
+      "status": "planned_not_executed"
+    },
+    "startup_paths_review": {
+      "description": "Future review of user startup paths and service entries.",
+      "paths": [
+        "~/.config/autostart",
+        "~/.config/systemd/user"
+      ],
+      "risk": "medium",
+      "status": "planned_not_executed"
+    }
+  },
+  "root": "~/citadel-ai/armor",
+  "scan_execution_enabled": false,
+  "timestamp": "REDACTED_TIMESTAMP"
+}

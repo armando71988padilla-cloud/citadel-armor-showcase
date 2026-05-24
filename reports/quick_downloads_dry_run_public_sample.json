@@ -1,0 +1,23 @@
+{
+  "actions": [
+    "no_scan_executed",
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_lockdown"
+  ],
+  "enforcement": false,
+  "mode": "MVP4_DRY_RUN_ONLY",
+  "product": "Citadel A.R.M.O.R.",
+  "profile": "quick_downloads",
+  "review_only": true,
+  "root": "~/citadel-ai/armor",
+  "safety_note": "Dry-run only. No files were scanned, opened, moved, deleted, or modified.",
+  "scan_executed": false,
+  "target": "~/Downloads",
+  "target_exists": true,
+  "target_is_dir": true,
+  "timestamp": "REDACTED_TIMESTAMP",
+  "would_scan": true
+}

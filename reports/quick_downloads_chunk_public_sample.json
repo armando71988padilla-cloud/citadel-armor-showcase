@@ -1,0 +1,44 @@
+{
+  "actions": [
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_lockdown"
+  ],
+  "batch_end": 10,
+  "batch_file_count": 10,
+  "batch_index": 0,
+  "batch_size_requested": 10,
+  "batch_start": 0,
+  "clamav": {
+    "code": 0,
+    "ok": true,
+    "output": "REDACTED_SCAN_OUTPUT"
+  },
+  "clamav_status": {
+    "clean": true,
+    "finding_count": 0,
+    "needs_private_review": false,
+    "timed_out": false
+  },
+  "enforcement": false,
+  "mode": "MVP4_CHUNKED_READ_ONLY_SCAN",
+  "private_report": "REDACTED_PRIVATE_REPORT",
+  "product": "Citadel A.R.M.O.R.",
+  "profile": "quick_downloads_chunk",
+  "review_only": true,
+  "root": "~/citadel-ai/armor",
+  "scan_executed": true,
+  "target": "~/Downloads",
+  "timestamp": "REDACTED_TIMESTAMP",
+  "tools": {
+    "clamscan": "present",
+    "file": "present",
+    "find": "present",
+    "freshclam": "present",
+    "sha256sum": "present",
+    "yara": "present"
+  },
+  "total_candidates_capped": 1502
+}

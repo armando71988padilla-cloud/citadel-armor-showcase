@@ -1,0 +1,14 @@
+{
+  "clean_batches": 5,
+  "enforcement": false,
+  "known_finding_count_total": 0,
+  "mode": "MVP6_AGGREGATE_REVIEW_ONLY",
+  "needs_private_review_batches": 0,
+  "product": "Citadel A.R.M.O.R.",
+  "profile": "quick_downloads_chunk",
+  "reports_reviewed": 12,
+  "review_only": true,
+  "safety_note": "Aggregate review only. No files scanned, opened, moved, deleted, quarantined, or modified.",
+  "timed_out_batches": 0,
+  "unknown_finding_count_batches": 7
+}

@@ -1,0 +1,38 @@
+{
+  "actions": [
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_lockdown"
+  ],
+  "clamav": {
+    "code": 0,
+    "ok": true,
+    "output": "REDACTED_SCAN_OUTPUT"
+  },
+  "enforcement": false,
+  "mode": "MVP2_READ_ONLY_SCAN",
+  "private_report": "REDACTED_PRIVATE_REPORT",
+  "product": "Citadel A.R.M.O.R.",
+  "profile": "citadel_armor_self_check",
+  "review_only": true,
+  "root": "~/citadel-ai/armor",
+  "target": "~/citadel-ai/armor",
+  "timestamp": "REDACTED_TIMESTAMP",
+  "tools": {
+    "clamscan": "present",
+    "file": "present",
+    "find": "present",
+    "freshclam": "present",
+    "sha256sum": "present",
+    "yara": "present"
+  },
+  "yara": {
+    "code": 1,
+    "finding_status": "matches_found_review_only",
+    "ok": true,
+    "output": "REDACTED_SCAN_OUTPUT",
+    "target_scope": "armor_root_python_files_only"
+  }
+}

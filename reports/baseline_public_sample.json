@@ -1,0 +1,85 @@
+{
+  "baseline_mode": "READ_ONLY_KNOWN_GOOD_CAPTURE",
+  "created": "REDACTED_TIMESTAMP",
+  "enforcement": {
+    "bluetooth_changes": false,
+    "enabled": false,
+    "firewall_changes": false,
+    "lockdown": false,
+    "purge": false,
+    "quarantine": false,
+    "usb_changes": false,
+    "wifi_changes": false
+  },
+  "operator_warning": "Review this baseline before using it for trust or enforcement.",
+  "product": "Citadel A.R.M.O.R.",
+  "schema": 1,
+  "status": {
+    "bluetooth": {
+      "code": 0,
+      "ok": true,
+      "output": "REDACTED_BLUETOOTH_OUTPUT"
+    },
+    "citadel": {
+      "armor_exists": true,
+      "root_exists": true,
+      "ui_ping": {
+        "body": "{\"ok\":true,\"reply\":\"pong\"}",
+        "code": 200,
+        "ok": true
+      }
+    },
+    "firewall": {
+      "code": 1,
+      "ok": false,
+      "output": "REDACTED_FIREWALL_OUTPUT"
+    },
+    "host": {
+      "hostname": "REDACTED_HOST",
+      "kernel": "REDACTED_KERNEL",
+      "platform": "REDACTED_PLATFORM",
+      "user": "REDACTED_USER"
+    },
+    "mode": "MVP1_READ_ONLY_STATUS",
+    "network": {
+      "listeners_sample": [
+        "REDACTED_LISTENERS_SAMPLE"
+      ],
+      "loopback_services": [
+        "REDACTED_LOOPBACK_SERVICES"
+      ],
+      "ss_ok": true
+    },
+    "no_action_guards": [
+      "no_firewall_changes",
+      "no_wifi_changes",
+      "no_bluetooth_changes",
+      "no_usb_changes",
+      "no_quarantine",
+      "no_purge",
+      "no_lockdown"
+    ],
+    "product": "Citadel A.R.M.O.R.",
+    "root": "~/citadel-ai/armor",
+    "timestamp": "REDACTED_TIMESTAMP",
+    "tools": {
+      "bluetoothctl": "present",
+      "clamscan": "missing",
+      "nmcli": "present",
+      "python3": "present",
+      "rfkill": "present",
+      "ss": "present",
+      "ufw": "present"
+    },
+    "usb": {
+      "count": "REDACTED_USB_COUNT",
+      "ok": true,
+      "sample": []
+    },
+    "wifi": {
+      "code": 0,
+      "ok": true,
+      "output": "REDACTED_WIFI_OUTPUT"
+    }
+  }
+}

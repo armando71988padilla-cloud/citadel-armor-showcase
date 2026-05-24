@@ -1,0 +1,28 @@
+{
+  "actions": [
+    "no_scan_executed",
+    "no_files_opened",
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_lockdown"
+  ],
+  "candidate_file_count_capped": 1502,
+  "directory_count_capped": 199,
+  "enforcement": false,
+  "file_count_limit_hit": false,
+  "max_files_counted": 5000,
+  "mode": "MVP4_PREFLIGHT_ONLY",
+  "permission_errors": 0,
+  "product": "Citadel A.R.M.O.R.",
+  "profile": "quick_downloads",
+  "review_only": true,
+  "root": "~/citadel-ai/armor",
+  "safety_note": "Preflight only. Counts candidates without printing filenames or absolute paths.",
+  "scan_executed": false,
+  "target": "~/Downloads",
+  "target_exists": true,
+  "target_is_dir": true,
+  "timestamp": "REDACTED_TIMESTAMP"
+}
