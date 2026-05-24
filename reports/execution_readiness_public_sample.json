@@ -1,0 +1,120 @@
+{
+  "action_executed": false,
+  "action_id": "REVIEW_ONLY_ACTION_ID",
+  "actions_enabled": false,
+  "blocking_reasons": [
+    "mvp16_review_only_no_execution_path",
+    "required_gates_not_executed",
+    "operator_confirmation_not_collected",
+    "emergency_stop_not_checked",
+    "rollback_manifest_not_attached",
+    "action_ledger_not_written",
+    "post_action_verification_not_available"
+  ],
+  "confirmation_collected": false,
+  "created_at": "REDACTED_TIMESTAMP",
+  "emergency_stop_modified": false,
+  "enforcement": false,
+  "execution_command_available": false,
+  "execution_ready": false,
+  "gate_results": [
+    {
+      "gate": "allowlist_validation",
+      "passed": false,
+      "state": "required_before_future_action"
+    },
+    {
+      "gate": "rollback_manifest",
+      "passed": false,
+      "state": "required_before_future_action"
+    },
+    {
+      "gate": "action_preview",
+      "passed": false,
+      "state": "required_before_future_action"
+    },
+    {
+      "gate": "emergency_stop_check",
+      "passed": false,
+      "state": "required_before_future_action"
+    },
+    {
+      "gate": "operator_confirmation",
+      "passed": false,
+      "state": "required_before_future_action"
+    },
+    {
+      "gate": "action_ledger",
+      "passed": false,
+      "state": "required_before_future_action"
+    },
+    {
+      "gate": "post_action_verification_plan",
+      "passed": false,
+      "state": "required_before_future_action"
+    }
+  ],
+  "mode": "MVP16_EXECUTION_READINESS_REVIEW_ONLY",
+  "no_action_guards": [
+    "no_execution_readiness_side_effects",
+    "no_action_execution",
+    "no_restore_execution",
+    "no_verification_execution",
+    "no_confirmation_collection",
+    "no_emergency_stop_mutation",
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_firewall_changes",
+    "no_wifi_changes",
+    "no_bluetooth_changes",
+    "no_usb_changes",
+    "no_process_kill",
+    "no_lockdown",
+    "no_scan_execution"
+  ],
+  "operator_review_required": true,
+  "product": "Citadel A.R.M.O.R.",
+  "readiness_id": "REVIEW_ONLY_READINESS_ID",
+  "readiness_requirements": [
+    "all_future_gates_must_pass_before_execution_ready",
+    "any_unknown_gate_blocks_execution",
+    "any_review_only_gate_blocks_execution",
+    "emergency_stop_blocks_execution_when_present_or_unknown",
+    "operator_confirmation_must_be_valid_and_recorded",
+    "rollback_manifest_must_be_present",
+    "action_ledger_entry_must_be_ready",
+    "public_output_must_be_redacted"
+  ],
+  "readiness_version": "0.1-review-only",
+  "release_freeze_required": true,
+  "remediation_enabled": false,
+  "required_gates": [
+    "allowlist_validation",
+    "rollback_manifest",
+    "action_preview",
+    "emergency_stop_check",
+    "operator_confirmation",
+    "action_ledger",
+    "post_action_verification_plan"
+  ],
+  "required_readiness_fields": [
+    "readiness_version",
+    "readiness_id",
+    "action_id",
+    "gate_results",
+    "blocking_reasons",
+    "execution_ready",
+    "execution_command_available",
+    "release_freeze_required",
+    "operator_review_required",
+    "created_at"
+  ],
+  "restore_executed": false,
+  "review_only": true,
+  "safety_note": "Execution readiness schema review only. No gates are executed, no command is exposed, and no action is executed.",
+  "scan_executed": false,
+  "target_class": "public_sample",
+  "verification_executed": false
+}
