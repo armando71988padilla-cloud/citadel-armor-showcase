@@ -7,6 +7,7 @@ Citadel A.R.M.O.R. is a local-first active defense module for Citadel-AI.
 Standalone showcase root:
 
 - this repository
+- project summary: PROJECT_SUMMARY.md
 - docs index: DOCS_INDEX.md
 - quickstart: QUICKSTART.md
 - FAQ: FAQ.md
