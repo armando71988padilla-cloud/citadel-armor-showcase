@@ -39,7 +39,7 @@ Standalone showcase root:
 
 ## Current status
 
-Citadel A.R.M.O.R. is sealed through **MVP20 public release seal** as a review-only, public-safe active defense showcase.
+Citadel A.R.M.O.R. is sealed through **MVP20 public release seal** as a review-only, public-safe active defense showcase. The public cross-platform adapter planning and regression layer is documented and sealed through **MVP54 public cross-platform summary update**.
 
 This repository demonstrates a controlled security workflow for local-first systems:
 
@@ -71,6 +71,29 @@ Current safety boundary:
 - no permission changes
 - no process kill
 
+## Cross-platform status
+
+ARMOR is now publicly framed as a platform-adapter framework for Linux, Windows, macOS, Android, and iOS.
+
+Current public cross-platform proof:
+
+- platform adapter contract is documented
+- platform capability matrix is documented
+- Linux, Windows, macOS, Android, and iOS adapter plans are documented
+- public adapter samples exist for all 5 platforms
+- adapter sample validation passes
+- cross-platform regression passes
+- cross-platform validation seal is present
+- cross-platform regression seal is present
+
+Current cross-platform boundary:
+
+- runtime adapters are disabled
+- platform agents are disabled
+- enforcement is disabled
+- remediation is disabled
+- private target scans are disabled
+- action execution is disabled
 ## Architecture / safety pipeline
 
 ```text
