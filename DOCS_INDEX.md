@@ -36,6 +36,8 @@ This index gives reviewers one ordered path through the public ARMOR showcase.
 | README.md | What is this project and what is sealed? |
 | QUICKSTART.md | What is the fastest safe review path? |
 | VERIFY.md | How do I verify the public release seal? |
+| PLATFORM_ADAPTER_PUBLIC_SAMPLES.md | What does the adapter sample output look like? |
+| PLATFORM_ADAPTER_VALIDATION.md | How are adapter samples validated? |
 | DEMO.md | What should expected output look like? |
 | SAFETY.md | What behavior is disabled? |
 | ARCHITECTURE.md | How is the safety pipeline structured? |
