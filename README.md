@@ -10,6 +10,7 @@ Standalone showcase root:
 - docs index: DOCS_INDEX.md
 - quickstart: QUICKSTART.md
 - FAQ: FAQ.md
+- glossary: GLOSSARY.md
 - demo: DEMO.md
 - case study: CASE_STUDY.md
 - roadmap: ROADMAP.md
