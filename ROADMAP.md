@@ -62,7 +62,7 @@ ARMOR is being broadened from a Linux-first showcase into a platform-adapter fra
 Planned public-safe expansion:
 
 - MVP37 public cross-platform strategy
-- MVP38 public platform capability matrix
+- MVP38 public platform capability matrix complete
 - MVP39 public adapter contract schema
 - MVP40 public cross-platform release seal
 - future Linux, Windows, macOS, Android, and iOS review-only adapter plans
