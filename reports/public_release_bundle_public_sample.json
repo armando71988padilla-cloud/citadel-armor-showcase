@@ -1,0 +1,183 @@
+{
+  "action_executed": false,
+  "actions_enabled": false,
+  "bundle_complete": true,
+  "bundle_version": "0.1-review-only",
+  "confirmation_collected": false,
+  "created_at": "REDACTED_TIMESTAMP",
+  "emergency_stop_modified": false,
+  "enforcement": false,
+  "latest_public_phase": "MVP18_PUBLIC_REGRESSION",
+  "mode": "MVP19_PUBLIC_RELEASE_BUNDLE_REVIEW_ONLY",
+  "next_public_phase": "MVP19_PUBLIC_RELEASE_BUNDLE",
+  "no_action_guards": [
+    "no_public_release_bundle_side_effects_beyond_public_sample_write",
+    "no_action_execution",
+    "no_restore_execution",
+    "no_verification_execution",
+    "no_confirmation_collection",
+    "no_emergency_stop_mutation",
+    "no_target_scan",
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_firewall_changes",
+    "no_wifi_changes",
+    "no_bluetooth_changes",
+    "no_usb_changes",
+    "no_process_kill",
+    "no_lockdown"
+  ],
+  "product": "Citadel A.R.M.O.R.",
+  "public_boundary": "review_only_no_execution_no_remediation_no_scan",
+  "public_docs": [
+    {
+      "path": "MVP9_ALLOWLIST_VALIDATION_PLAN.md",
+      "present": true
+    },
+    {
+      "path": "MVP10_ROLLBACK_MANIFEST_PLAN.md",
+      "present": true
+    },
+    {
+      "path": "MVP11_ACTION_PREVIEW_PLAN.md",
+      "present": true
+    },
+    {
+      "path": "MVP12_ACTION_LEDGER_PLAN.md",
+      "present": true
+    },
+    {
+      "path": "MVP13_POST_ACTION_VERIFY_PLAN.md",
+      "present": true
+    },
+    {
+      "path": "MVP14_EMERGENCY_STOP_PLAN.md",
+      "present": true
+    },
+    {
+      "path": "MVP15_OPERATOR_CONFIRM_PLAN.md",
+      "present": true
+    },
+    {
+      "path": "MVP16_EXECUTION_READINESS_PLAN.md",
+      "present": true
+    },
+    {
+      "path": "MVP17_PRE_EXECUTION_FREEZE_PLAN.md",
+      "present": true
+    },
+    {
+      "path": "MVP18_PUBLIC_REGRESSION_PLAN.md",
+      "present": true
+    }
+  ],
+  "public_helpers": [
+    {
+      "path": "armor_policy.py",
+      "present": true
+    },
+    {
+      "path": "armor_release_gate.py",
+      "present": true
+    },
+    {
+      "path": "armor_allowlist_validate.py",
+      "present": true
+    },
+    {
+      "path": "armor_rollback_manifest.py",
+      "present": true
+    },
+    {
+      "path": "armor_action_preview.py",
+      "present": true
+    },
+    {
+      "path": "armor_action_ledger.py",
+      "present": true
+    },
+    {
+      "path": "armor_post_action_verify.py",
+      "present": true
+    },
+    {
+      "path": "armor_emergency_stop.py",
+      "present": true
+    },
+    {
+      "path": "armor_operator_confirm.py",
+      "present": true
+    },
+    {
+      "path": "armor_execution_readiness.py",
+      "present": true
+    },
+    {
+      "path": "armor_pre_execution_freeze.py",
+      "present": true
+    },
+    {
+      "path": "armor_public_regression.py",
+      "present": true
+    }
+  ],
+  "public_samples": [
+    {
+      "path": "reports/policy_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/release_gate_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/allowlist_validation_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/rollback_manifest_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/action_preview_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/action_ledger_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/post_action_verify_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/emergency_stop_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/operator_confirm_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/execution_readiness_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/pre_execution_freeze_public_sample.json",
+      "present": true
+    },
+    {
+      "path": "reports/public_regression_public_sample.json",
+      "present": true
+    }
+  ],
+  "remediation_enabled": false,
+  "restore_executed": false,
+  "review_only": true,
+  "safety_note": "Public release bundle summary checks expected public files only. It does not scan targets, expose commands, or execute actions.",
+  "scan_executed": false,
+  "target_scan_executed": false,
+  "verification_executed": false
+}
