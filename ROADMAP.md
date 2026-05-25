@@ -64,7 +64,7 @@ Planned public-safe expansion:
 - MVP37 public cross-platform strategy
 - MVP38 public platform capability matrix complete
 - MVP39 public adapter contract schema complete
-- MVP40 public cross-platform release seal
+- MVP40 public cross-platform release seal complete
 - future Linux, Windows, macOS, Android, and iOS review-only adapter plans
 
 The ARMOR core should remain platform-neutral. Platform-specific behavior should live in adapters.
