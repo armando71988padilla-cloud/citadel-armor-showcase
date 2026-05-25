@@ -55,6 +55,20 @@ The public showcase intentionally does not implement:
 - permission modification
 - private target scanning
 
+## Cross-platform direction
+
+ARMOR is being broadened from a Linux-first showcase into a platform-adapter framework.
+
+Planned public-safe expansion:
+
+- MVP37 public cross-platform strategy
+- MVP38 public platform capability matrix
+- MVP39 public adapter contract schema
+- MVP40 public cross-platform release seal
+- future Linux, Windows, macOS, Android, and iOS review-only adapter plans
+
+The ARMOR core should remain platform-neutral. Platform-specific behavior should live in adapters.
+
 ## Future work candidates
 
 Future public-safe work could include:

@@ -8,6 +8,7 @@ Standalone showcase root:
 
 - this repository
 - project summary: PROJECT_SUMMARY.md
+- cross-platform strategy: CROSS_PLATFORM_STRATEGY.md
 - docs index: DOCS_INDEX.md
 - quickstart: QUICKSTART.md
 - FAQ: FAQ.md
