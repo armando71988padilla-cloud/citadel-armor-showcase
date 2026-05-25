@@ -10,27 +10,81 @@ Standalone showcase root:
 
 ## Current status
 
-MVP 1 is frozen as a stable read-only checkpoint.
+Citadel A.R.M.O.R. is sealed through **MVP20 public release seal** as a review-only, public-safe active defense showcase.
 
-Current capabilities:
+This repository demonstrates a controlled security workflow for local-first systems:
 
-- read-only local status probe
-- read-only status capture helper
-- read-only known good baseline capture
-- public-safe redacted status sample
-- public-safe redacted baseline sample
-- private runtime snapshots ignored by Git
+- read-only status and baseline capture
+- bounded scan planning and dry-run reporting
+- safe target policy and release gate checks
+- allowlist validation before any future action
+- rollback manifest planning before any future action
+- action preview, action ledger, and post-action verification schemas
+- emergency stop and operator confirmation schemas
+- execution readiness and pre-execution freeze aggregation
+- public regression and release seal summaries
 
 Current safety boundary:
 
+- review only
+- no enforcement
+- no remediation
+- no target scanning in release seal helpers
+- no action execution
+- no restore execution
+- no quarantine
+- no purge
+- no lockdown
 - no firewall changes
 - no Wi-Fi changes
 - no Bluetooth changes
 - no USB blocking
-- no quarantine
-- no purge
-- no lockdown
-- no enforcement
+- no permission changes
+- no process kill
+
+## Architecture / safety pipeline
+
+```text
+status / baseline
+  -> scan planning and public samples
+  -> safe target policy
+  -> release gate
+  -> allowlist validation
+  -> rollback manifest
+  -> action preview
+  -> action ledger
+  -> post-action verification plan
+  -> emergency stop schema
+  -> operator confirmation schema
+  -> execution readiness aggregation
+  -> pre-execution freeze checklist
+  -> public regression aggregation
+  -> public release bundle
+  -> public release seal
+```
+
+Every layer is designed to prove intent, scope, rollback, operator review, and safety boundaries before any future enforcement work is considered.
+
+## Milestone summary
+
+| Phase | Focus | Public-safe output |
+|---|---|---|
+| MVP1-MVP3 | Status, baseline, detection foundation | Redacted status, baseline, and scan samples |
+| MVP4-MVP6 | Bounded scan profiles and aggregate reporting | Dry-run, preflight, chunk, and aggregate samples |
+| MVP7 | Safe target policy | `armor_policy.py --public` |
+| MVP8 | Release gate / lockout prevention | `armor_release_gate.py --public` |
+| MVP9 | Review-only allowlist validation | `armor_allowlist_validate.py --public-sample` |
+| MVP10 | Rollback manifest planning | `armor_rollback_manifest.py --public-sample` |
+| MVP11 | Action preview schema | `armor_action_preview.py --public-sample` |
+| MVP12 | Action ledger schema | `armor_action_ledger.py --public-sample` |
+| MVP13 | Post-action verification schema | `armor_post_action_verify.py --public-sample` |
+| MVP14 | Emergency stop schema | `armor_emergency_stop.py --public-sample` |
+| MVP15 | Operator confirmation schema | `armor_operator_confirm.py --public-sample` |
+| MVP16 | Execution readiness aggregation | `armor_execution_readiness.py --public-sample` |
+| MVP17 | Pre-execution freeze checklist | `armor_pre_execution_freeze.py --public-sample` |
+| MVP18 | Public regression aggregation | `armor_public_regression.py --public-sample` |
+| MVP19 | Public release bundle summary | `armor_public_release_bundle.py --public-sample` |
+| MVP20 | Public release seal | `armor_public_release_seal.py --public-sample` |
 
 ## Public-safe files
 
