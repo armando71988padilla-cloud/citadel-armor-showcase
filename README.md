@@ -8,6 +8,7 @@ Standalone showcase root:
 
 - this repository
 - quickstart: QUICKSTART.md
+- architecture: ARCHITECTURE.md
 - verification guide: VERIFY.md
 
 ## Current status
