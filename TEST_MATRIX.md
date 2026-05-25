@@ -54,3 +54,13 @@ python3 armor_public_release_seal.py --public-sample | grep -E '"mode":|"release
 ## Boundary
 
 This public test matrix introduces no helper changes, sample logic changes, enforcement, remediation, target scans, or action execution.
+
+## Platform adapter validation
+
+| Area | Check | Pass condition |
+|---|---|---|
+| Adapter samples | python3 armor_platform_adapter_validate.py --public-sample | validation_passed is true |
+| Adapter platform count | validator output | platform_count is 5 |
+| Adapter safety flags | validator output | review_only is true and action/enforcement/remediation flags are false |
+
+Boundary: this validation reads public sample JSON only. It does not run platform agents or execute actions.

@@ -71,7 +71,8 @@ Planned public-safe expansion:
 - MVP44 public Android adapter plan
 - MVP45 public iOS adapter plan
 - MVP46 public cross-platform adapter sample outputs complete
-- MVP47 public platform adapter sample validator
+- MVP47 public platform adapter sample validator complete
+- MVP48 public adapter validation verification wiring
 
 The ARMOR core should remain platform-neutral. Platform-specific behavior should live in adapters.
 

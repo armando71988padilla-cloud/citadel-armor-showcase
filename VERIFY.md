@@ -84,3 +84,27 @@ NO_PUBLIC_SECRET_MARKER_MATCHES
 If all checks pass, the public showcase is sealed through MVP20 as review-only public release seal output.
 
 No enforcement or remediation behavior is present in this public showcase.
+
+## Validate platform adapter public samples
+
+Run the review-only platform adapter sample validator:
+
+```bash
+python3 armor_platform_adapter_validate.py --public-sample | grep -E '"mode":|"review_only":|"actions_enabled":|"enforcement":|"remediation_enabled":|"target_scan_executed":|"validation_executed":|"sample_runtime_enabled":|"validation_passed":|"platform_count":'
+```
+
+Expected highlights:
+
+```text
+"mode": "MVP47_PLATFORM_ADAPTER_VALIDATION_REVIEW_ONLY"
+"validation_passed": true
+"platform_count": 5
+"review_only": true
+"actions_enabled": false
+"enforcement": false
+"remediation_enabled": false
+"target_scan_executed": false
+"sample_runtime_enabled": false
+```
+
+This validates public-safe adapter sample shape only. It does not run platform agents, scan private targets, enable enforcement, enable remediation, or execute actions.
