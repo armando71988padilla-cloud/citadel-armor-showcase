@@ -10,6 +10,7 @@ Standalone showcase root:
 - project summary: PROJECT_SUMMARY.md
 - cross-platform strategy: CROSS_PLATFORM_STRATEGY.md
 - platform capability matrix: PLATFORM_CAPABILITY_MATRIX.md
+- platform adapter contract: PLATFORM_ADAPTER_CONTRACT.md
 - docs index: DOCS_INDEX.md
 - quickstart: QUICKSTART.md
 - FAQ: FAQ.md
