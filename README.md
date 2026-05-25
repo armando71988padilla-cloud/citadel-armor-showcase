@@ -17,6 +17,7 @@ Standalone showcase root:
 - artifact index: ARTIFACTS.md
 - release notes: RELEASE_NOTES.md
 - reviewer guide: REVIEWER_GUIDE.md
+- test matrix: TEST_MATRIX.md
 - verification guide: VERIFY.md
 
 ## Current status
