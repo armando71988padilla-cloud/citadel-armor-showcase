@@ -10,6 +10,7 @@ Standalone showcase root:
 - quickstart: QUICKSTART.md
 - architecture: ARCHITECTURE.md
 - artifact index: ARTIFACTS.md
+- release notes: RELEASE_NOTES.md
 - verification guide: VERIFY.md
 
 ## Current status
