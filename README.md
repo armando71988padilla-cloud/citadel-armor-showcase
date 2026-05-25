@@ -9,6 +9,7 @@ Standalone showcase root:
 - this repository
 - quickstart: QUICKSTART.md
 - demo: DEMO.md
+- case study: CASE_STUDY.md
 - safety boundary: SAFETY.md
 - architecture: ARCHITECTURE.md
 - artifact index: ARTIFACTS.md
