@@ -66,3 +66,28 @@ action_executed: false
 ## Bottom line
 
 This repository is best evaluated as a safety-first systems engineering showcase. It demonstrates disciplined release gates around risky automation, not production action execution.
+
+## Cross-platform milestone
+
+ARMOR now includes a public-safe cross-platform adapter planning and regression layer for Linux, Windows, macOS, Android, and iOS.
+
+Current cross-platform proof:
+
+- platform adapter contract is documented
+- Linux, Windows, macOS, Android, and iOS adapter plans are documented
+- public adapter samples exist for all 5 platforms
+- adapter sample validation passes
+- cross-platform regression passes
+- cross-platform validation seal is present
+- cross-platform regression seal is present
+
+Current cross-platform boundary:
+
+- runtime adapters are disabled
+- platform agents are disabled
+- enforcement is disabled
+- remediation is disabled
+- private target scans are disabled
+- action execution is disabled
+
+This keeps the project positioned as a safety-first framework before any platform-specific runtime implementation.

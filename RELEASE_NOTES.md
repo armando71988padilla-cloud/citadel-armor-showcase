@@ -53,3 +53,28 @@ action_executed: false
 ## Safety note
 
 Public release notes describe review-only showcase state. They do not introduce helper changes, sample changes, enforcement, remediation, or private target scanning.
+
+## MVP54 public cross-platform summary update
+
+Public-facing docs now reflect the sealed cross-platform regression layer.
+
+Recent sealed milestones:
+
+- MVP50 public cross-platform validation seal
+- MVP51 public cross-platform regression helper
+- MVP52 public cross-platform regression verification wiring
+- MVP53 public cross-platform regression seal
+
+Current cross-platform safety status:
+
+- adapter validation passes
+- cross-platform regression passes
+- platform count remains 5
+- runtime adapters remain disabled
+- platform agents remain disabled
+- enforcement remains disabled
+- remediation remains disabled
+- private target scans remain disabled
+- action execution remains disabled
+
+Boundary: this release note is documentation-only. It introduces no helper changes, sample changes, runtime adapters, platform agents, enforcement, remediation, target scans, or action execution.
