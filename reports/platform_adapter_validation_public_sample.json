@@ -1,0 +1,48 @@
+{
+  "actions_enabled": false,
+  "enforcement": false,
+  "expected_platforms": [
+    "linux",
+    "windows",
+    "macos",
+    "android",
+    "ios"
+  ],
+  "failures": [],
+  "mode": "MVP47_PLATFORM_ADAPTER_VALIDATION_REVIEW_ONLY",
+  "platform_count": 5,
+  "platform_results": [
+    {
+      "failures": [],
+      "passed": true,
+      "platform": "linux"
+    },
+    {
+      "failures": [],
+      "passed": true,
+      "platform": "windows"
+    },
+    {
+      "failures": [],
+      "passed": true,
+      "platform": "macos"
+    },
+    {
+      "failures": [],
+      "passed": true,
+      "platform": "android"
+    },
+    {
+      "failures": [],
+      "passed": true,
+      "platform": "ios"
+    }
+  ],
+  "remediation_enabled": false,
+  "review_only": true,
+  "sample_path": "reports/platform_adapter_public_sample.json",
+  "sample_runtime_enabled": false,
+  "target_scan_executed": false,
+  "validation_executed": true,
+  "validation_passed": true
+}
