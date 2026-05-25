@@ -15,6 +15,7 @@ Standalone showcase root:
 - linux adapter plan: LINUX_ADAPTER_PLAN.md
 - windows adapter plan: WINDOWS_ADAPTER_PLAN.md
 - macOS adapter plan: MACOS_ADAPTER_PLAN.md
+- Android adapter plan: ANDROID_ADAPTER_PLAN.md
 - docs index: DOCS_INDEX.md
 - quickstart: QUICKSTART.md
 - FAQ: FAQ.md
