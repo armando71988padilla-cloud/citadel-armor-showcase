@@ -13,6 +13,7 @@ Standalone showcase root:
 - architecture: ARCHITECTURE.md
 - artifact index: ARTIFACTS.md
 - release notes: RELEASE_NOTES.md
+- reviewer guide: REVIEWER_GUIDE.md
 - verification guide: VERIFY.md
 
 ## Current status
