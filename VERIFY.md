@@ -70,7 +70,7 @@ Expected: matching lines for all four phrases.
 This public guide intentionally avoids storing local machine names, usernames, network identifiers, or private path literals.
 
 ```bash
-grep -RInE 'BEGIN OPENSSH PRIVATE KEY|BEGIN RSA PRIVATE KEY|github_pat_|ghp_|AKIA[0-9A-Z]{16}|xox[baprs]-' . || echo "NO_PUBLIC_SECRET_MARKER_MATCHES"
+grep -RInE 'BEGIN [O]PENSSH PRIVATE KEY|BEGIN [R]SA PRIVATE KEY|github[_]pat_|gh[p]_|AKIA[0-9A-Z]{16}|xox[baprs]-' . || echo "NO_PUBLIC_SECRET_MARKER_MATCHES"
 ```
 
 Expected:
