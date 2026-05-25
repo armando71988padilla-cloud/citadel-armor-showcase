@@ -1,0 +1,84 @@
+# Verify Citadel A.R.M.O.R. Public Showcase
+
+This guide verifies the public-safe ARMOR showcase without running enforcement, remediation, quarantine, purge, lockdown, or target scans.
+
+## Safety expectation
+
+All verification commands must preserve these values:
+
+- review_only: true
+- actions_enabled: false
+- enforcement: false
+- remediation_enabled: false
+- scan_executed: false
+- target_scan_executed: false
+- action_executed: false
+
+## 1. Confirm repository state
+
+```bash
+git status -sb
+git log --oneline --decorate -n 10
+```
+
+Expected:
+
+```text
+## main...origin/main
+```
+
+## 2. Compile public helper scripts
+
+```bash
+python3 -m py_compile armor_public_release_seal.py armor_public_release_bundle.py armor_public_regression.py armor_pre_execution_freeze.py armor_execution_readiness.py armor_operator_confirm.py armor_emergency_stop.py armor_post_action_verify.py armor_action_ledger.py armor_action_preview.py armor_rollback_manifest.py armor_allowlist_validate.py armor_release_gate.py armor_policy.py
+```
+
+Expected: no output and exit code 0.
+
+## 3. Run public release seal
+
+```bash
+python3 armor_public_release_seal.py --public-sample | grep -E '"mode":|"release_sealed":|"sealed_through":|"seal_phase":|"review_only":|"actions_enabled":|"enforcement":|"remediation_enabled":|"scan_executed":|"target_scan_executed":|"action_executed":'
+```
+
+Expected:
+
+```text
+"mode": "MVP20_PUBLIC_RELEASE_SEAL_REVIEW_ONLY"
+"release_sealed": true
+"sealed_through": "MVP19_PUBLIC_RELEASE_BUNDLE"
+"seal_phase": "MVP20_PUBLIC_RELEASE_SEAL"
+"review_only": true
+"actions_enabled": false
+"enforcement": false
+"remediation_enabled": false
+"scan_executed": false
+"target_scan_executed": false
+"action_executed": false
+```
+
+## 4. Check public README polish
+
+```bash
+grep -nE 'MVP20 public release seal|Architecture / safety pipeline|Milestone summary|armor_public_release_seal' README.md
+```
+
+Expected: matching lines for all four phrases.
+
+## 5. Check for private literal leaks
+
+```bash
+grep -RInE '/home/kinsley|Citadel-Reborn|AshleyNPeanut|100\.99\.|tailscale0|wlp7s0|PSSD|SanDisk|BEGIN OPENSSH PRIVATE KEY|BEGIN RSA PRIVATE KEY|github_pat_|ghp_' . || echo "NO_PUBLIC_SHOWCASE_PRIVATE_LITERAL_MATCHES"
+```
+
+Expected:
+
+```text
+NO_PUBLIC_SHOWCASE_PRIVATE_LITERAL_MATCHES
+```
+
+## Verified boundary
+
+If all checks pass, the public showcase is sealed through MVP20 as review-only public release seal output.
+
+No enforcement or remediation behavior is present in this public showcase.
