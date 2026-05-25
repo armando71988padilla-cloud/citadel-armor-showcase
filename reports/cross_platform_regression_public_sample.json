@@ -1,0 +1,19 @@
+{
+  "actions_enabled": false,
+  "adapter_validation_parse_ok": true,
+  "adapter_validation_passed": true,
+  "adapter_validation_platform_count": 5,
+  "adapter_validation_run_ok": true,
+  "cross_platform_regression_passed": true,
+  "enforcement": false,
+  "locked_flags_ok": true,
+  "missing_files": [],
+  "mode": "MVP51_CROSS_PLATFORM_REGRESSION_REVIEW_ONLY",
+  "platform_agents_enabled": false,
+  "regression_executed": true,
+  "remediation_enabled": false,
+  "required_files_ok": true,
+  "review_only": true,
+  "runtime_adapters_enabled": false,
+  "target_scan_executed": false
+}
