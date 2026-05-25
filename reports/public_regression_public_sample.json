@@ -1,0 +1,196 @@
+{
+  "action_executed": false,
+  "actions_enabled": false,
+  "compile_ok": true,
+  "compile_results": [
+    {
+      "compile_ok": true,
+      "helper": "armor_policy.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_release_gate.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_allowlist_validate.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_rollback_manifest.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_action_preview.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_action_ledger.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_post_action_verify.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_emergency_stop.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_operator_confirm.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_execution_readiness.py",
+      "reason": "compiled"
+    },
+    {
+      "compile_ok": true,
+      "helper": "armor_pre_execution_freeze.py",
+      "reason": "compiled"
+    }
+  ],
+  "confirmation_collected": false,
+  "created_at": "REDACTED_TIMESTAMP",
+  "emergency_stop_modified": false,
+  "enforcement": false,
+  "helpers_checked": [
+    "armor_policy.py",
+    "armor_release_gate.py",
+    "armor_allowlist_validate.py",
+    "armor_rollback_manifest.py",
+    "armor_action_preview.py",
+    "armor_action_ledger.py",
+    "armor_post_action_verify.py",
+    "armor_emergency_stop.py",
+    "armor_operator_confirm.py",
+    "armor_execution_readiness.py",
+    "armor_pre_execution_freeze.py"
+  ],
+  "mode": "MVP18_PUBLIC_REGRESSION_REVIEW_ONLY",
+  "no_action_guards": [
+    "no_public_regression_side_effects_beyond_public_sample_refresh",
+    "no_action_execution",
+    "no_restore_execution",
+    "no_verification_execution",
+    "no_confirmation_collection",
+    "no_emergency_stop_mutation",
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_firewall_changes",
+    "no_wifi_changes",
+    "no_bluetooth_changes",
+    "no_usb_changes",
+    "no_process_kill",
+    "no_lockdown",
+    "no_scan_execution"
+  ],
+  "product": "Citadel A.R.M.O.R.",
+  "public_regression_executed": true,
+  "public_sample_results": [
+    {
+      "helper": "armor_policy.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_release_gate.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_allowlist_validate.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_rollback_manifest.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_action_preview.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_action_ledger.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_post_action_verify.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_emergency_stop.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_operator_confirm.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_execution_readiness.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    },
+    {
+      "helper": "armor_pre_execution_freeze.py",
+      "locked_flags_ok": true,
+      "parse_ok": true,
+      "reason": "ran",
+      "run_ok": true
+    }
+  ],
+  "public_samples_ok": true,
+  "regression_passed": true,
+  "regression_version": "0.1-review-only",
+  "remediation_enabled": false,
+  "required_locked_flags": {
+    "actions_enabled": false,
+    "enforcement": false,
+    "remediation_enabled": false,
+    "review_only": true,
+    "scan_executed": false
+  },
+  "restore_executed": false,
+  "review_only": true,
+  "safety_note": "Public regression aggregation compiles helpers and refreshes public samples only. It does not scan targets, expose commands, or execute actions.",
+  "scan_executed": false,
+  "verification_executed": false
+}
