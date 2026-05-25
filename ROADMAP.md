@@ -66,7 +66,8 @@ Planned public-safe expansion:
 - MVP39 public adapter contract schema complete
 - MVP40 public cross-platform release seal complete
 - MVP41 public Linux adapter contract alignment
-- future Windows, macOS, Android, and iOS review-only adapter plans
+- MVP42 public Windows adapter plan
+- future macOS, Android, and iOS review-only adapter plans
 
 The ARMOR core should remain platform-neutral. Platform-specific behavior should live in adapters.
 
