@@ -38,6 +38,7 @@ This index gives reviewers one ordered path through the public ARMOR showcase.
 | VERIFY.md | How do I verify the public release seal? |
 | PLATFORM_ADAPTER_PUBLIC_SAMPLES.md | What does the adapter sample output look like? |
 | PLATFORM_ADAPTER_VALIDATION.md | How are adapter samples validated? |
+| CROSS_PLATFORM_REGRESSION.md | How is the cross-platform layer regression checked? |
 | DEMO.md | What should expected output look like? |
 | SAFETY.md | What behavior is disabled? |
 | ARCHITECTURE.md | How is the safety pipeline structured? |

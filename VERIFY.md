@@ -108,3 +108,31 @@ Expected highlights:
 ```
 
 This validates public-safe adapter sample shape only. It does not run platform agents, scan private targets, enable enforcement, enable remediation, or execute actions.
+
+## Run cross-platform public regression
+
+Run the review-only cross-platform regression helper:
+
+```bash
+python3 armor_cross_platform_regression.py --public-sample | grep -E '"mode":|"review_only":|"actions_enabled":|"enforcement":|"remediation_enabled":|"target_scan_executed":|"runtime_adapters_enabled":|"platform_agents_enabled":|"regression_executed":|"required_files_ok":|"adapter_validation_passed":|"adapter_validation_platform_count":|"locked_flags_ok":|"cross_platform_regression_passed":'
+```
+
+Expected highlights:
+
+```text
+"mode": "MVP51_CROSS_PLATFORM_REGRESSION_REVIEW_ONLY"
+"cross_platform_regression_passed": true
+"adapter_validation_passed": true
+"adapter_validation_platform_count": 5
+"required_files_ok": true
+"locked_flags_ok": true
+"review_only": true
+"actions_enabled": false
+"enforcement": false
+"remediation_enabled": false
+"target_scan_executed": false
+"runtime_adapters_enabled": false
+"platform_agents_enabled": false
+```
+
+This validates public cross-platform docs, samples, and adapter validation only. It does not run platform agents, scan private targets, enable enforcement, enable remediation, or execute actions.

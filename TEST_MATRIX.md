@@ -64,3 +64,14 @@ This public test matrix introduces no helper changes, sample logic changes, enfo
 | Adapter safety flags | validator output | review_only is true and action/enforcement/remediation flags are false |
 
 Boundary: this validation reads public sample JSON only. It does not run platform agents or execute actions.
+
+## Cross-platform regression
+
+| Area | Check | Pass condition |
+|---|---|---|
+| Cross-platform regression | python3 armor_cross_platform_regression.py --public-sample | cross_platform_regression_passed is true |
+| Required files | regression output | required_files_ok is true |
+| Adapter validation | regression output | adapter_validation_passed is true and adapter_validation_platform_count is 5 |
+| Runtime boundary | regression output | runtime_adapters_enabled and platform_agents_enabled are false |
+
+Boundary: this regression reads public docs, public samples, and validator output only. It does not run platform agents or execute actions.
