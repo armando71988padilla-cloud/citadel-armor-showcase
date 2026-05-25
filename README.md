@@ -10,6 +10,7 @@ Standalone showcase root:
 - quickstart: QUICKSTART.md
 - demo: DEMO.md
 - case study: CASE_STUDY.md
+- roadmap: ROADMAP.md
 - safety boundary: SAFETY.md
 - architecture: ARCHITECTURE.md
 - artifact index: ARTIFACTS.md
