@@ -78,6 +78,8 @@ Current safety boundary:
 - MVP18_PUBLIC_REGRESSION_STATUS.md
 - MVP19_PUBLIC_RELEASE_BUNDLE_PLAN.md
 - MVP19_PUBLIC_RELEASE_BUNDLE_STATUS.md
+- MVP20_PUBLIC_RELEASE_SEAL_PLAN.md
+- MVP20_PUBLIC_RELEASE_SEAL_STATUS.md
 - reports/status_public_sample.json
 - reports/baseline_public_sample.json
 - reports/scan_public_sample.json
@@ -99,6 +101,7 @@ Current safety boundary:
 - reports/pre_execution_freeze_public_sample.json
 - reports/public_regression_public_sample.json
 - reports/public_release_bundle_public_sample.json
+- reports/public_release_seal_public_sample.json
 
 ## Local private files
 
