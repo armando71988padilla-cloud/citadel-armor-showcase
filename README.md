@@ -16,6 +16,7 @@ Standalone showcase root:
 - cross-platform release seal: CROSS_PLATFORM_RELEASE_SEAL.md
 - cross-platform validation seal: CROSS_PLATFORM_VALIDATION_SEAL.md
 - cross-platform regression: CROSS_PLATFORM_REGRESSION.md
+- cross-platform regression seal: CROSS_PLATFORM_REGRESSION_SEAL.md
 - linux adapter plan: LINUX_ADAPTER_PLAN.md
 - windows adapter plan: WINDOWS_ADAPTER_PLAN.md
 - macOS adapter plan: MACOS_ADAPTER_PLAN.md

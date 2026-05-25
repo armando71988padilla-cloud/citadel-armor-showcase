@@ -76,7 +76,8 @@ Planned public-safe expansion:
 - MVP49 public docs index adapter validation wiring complete
 - MVP50 public cross-platform validation seal complete
 - MVP51 public cross-platform regression helper complete
-- MVP52 public cross-platform regression verification wiring
+- MVP52 public cross-platform regression verification wiring complete
+- MVP53 public cross-platform regression seal
 
 The ARMOR core should remain platform-neutral. Platform-specific behavior should live in adapters.
 
