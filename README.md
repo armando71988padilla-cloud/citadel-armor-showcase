@@ -72,6 +72,8 @@ Current safety boundary:
 - MVP15_OPERATOR_CONFIRM_FREEZE_STATUS.md
 - MVP16_EXECUTION_READINESS_PLAN.md
 - MVP16_EXECUTION_READINESS_FREEZE_STATUS.md
+- MVP17_PRE_EXECUTION_FREEZE_PLAN.md
+- MVP17_PRE_EXECUTION_FREEZE_STATUS.md
 - reports/status_public_sample.json
 - reports/baseline_public_sample.json
 - reports/scan_public_sample.json
@@ -90,6 +92,7 @@ Current safety boundary:
 - reports/emergency_stop_public_sample.json
 - reports/operator_confirm_public_sample.json
 - reports/execution_readiness_public_sample.json
+- reports/pre_execution_freeze_public_sample.json
 
 ## Local private files
 

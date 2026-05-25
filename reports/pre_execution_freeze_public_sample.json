@@ -1,0 +1,132 @@
+{
+  "action_executed": false,
+  "action_id": "REVIEW_ONLY_ACTION_ID",
+  "actions_enabled": false,
+  "blocking_reasons": [
+    "mvp17_review_only_no_execution_path",
+    "pre_execution_checks_not_executed",
+    "execution_readiness_not_passed",
+    "operator_confirmation_not_valid",
+    "emergency_stop_not_checked",
+    "rollback_manifest_not_attached",
+    "action_ledger_not_ready",
+    "post_action_verification_plan_not_ready"
+  ],
+  "checklist_items": [
+    {
+      "check": "allowlist_validation_reviewed",
+      "passed": false,
+      "state": "required_before_future_execution"
+    },
+    {
+      "check": "rollback_manifest_attached",
+      "passed": false,
+      "state": "required_before_future_execution"
+    },
+    {
+      "check": "action_preview_reviewed",
+      "passed": false,
+      "state": "required_before_future_execution"
+    },
+    {
+      "check": "emergency_stop_checked",
+      "passed": false,
+      "state": "required_before_future_execution"
+    },
+    {
+      "check": "operator_confirmation_valid",
+      "passed": false,
+      "state": "required_before_future_execution"
+    },
+    {
+      "check": "action_ledger_ready",
+      "passed": false,
+      "state": "required_before_future_execution"
+    },
+    {
+      "check": "post_action_verification_plan_ready",
+      "passed": false,
+      "state": "required_before_future_execution"
+    },
+    {
+      "check": "execution_readiness_reviewed",
+      "passed": false,
+      "state": "required_before_future_execution"
+    }
+  ],
+  "confirmation_collected": false,
+  "created_at": "REDACTED_TIMESTAMP",
+  "emergency_stop_modified": false,
+  "enforcement": false,
+  "execution_command_available": false,
+  "execution_ready": false,
+  "freeze_checks": [
+    "allowlist_validation_reviewed",
+    "rollback_manifest_attached",
+    "action_preview_reviewed",
+    "emergency_stop_checked",
+    "operator_confirmation_valid",
+    "action_ledger_ready",
+    "post_action_verification_plan_ready",
+    "execution_readiness_reviewed"
+  ],
+  "freeze_decision": "freeze_required_review_only",
+  "freeze_id": "REVIEW_ONLY_FREEZE_ID",
+  "freeze_required": true,
+  "freeze_requirements": [
+    "freeze_required_when_any_gate_is_missing",
+    "freeze_required_when_any_gate_is_unknown",
+    "freeze_required_when_any_gate_is_review_only",
+    "freeze_required_when_emergency_stop_is_present_or_unknown",
+    "freeze_required_when_operator_confirmation_is_missing_or_invalid",
+    "freeze_required_when_rollback_manifest_is_missing",
+    "freeze_required_when_action_ledger_is_not_ready",
+    "freeze_required_when_post_action_verification_plan_is_missing",
+    "public_output_must_be_redacted"
+  ],
+  "freeze_version": "0.1-review-only",
+  "mode": "MVP17_PRE_EXECUTION_FREEZE_REVIEW_ONLY",
+  "no_action_guards": [
+    "no_pre_execution_freeze_side_effects",
+    "no_gate_execution",
+    "no_action_execution",
+    "no_restore_execution",
+    "no_verification_execution",
+    "no_confirmation_collection",
+    "no_emergency_stop_mutation",
+    "no_delete",
+    "no_quarantine",
+    "no_purge",
+    "no_permission_changes",
+    "no_firewall_changes",
+    "no_wifi_changes",
+    "no_bluetooth_changes",
+    "no_usb_changes",
+    "no_process_kill",
+    "no_lockdown",
+    "no_scan_execution"
+  ],
+  "operator_review_required": true,
+  "pre_execution_checks_executed": false,
+  "product": "Citadel A.R.M.O.R.",
+  "remediation_enabled": false,
+  "required_freeze_fields": [
+    "freeze_version",
+    "freeze_id",
+    "action_id",
+    "freeze_decision",
+    "freeze_required",
+    "execution_ready",
+    "execution_command_available",
+    "checklist_items",
+    "blocking_reasons",
+    "operator_review_required",
+    "created_at"
+  ],
+  "restore_executed": false,
+  "review_only": true,
+  "safety_note": "Pre-execution freeze checklist schema review only. No gates are executed, no command is exposed, and no action is executed.",
+  "scan_executed": false,
+  "target_class": "public_sample",
+  "verification_executed": false
+}
