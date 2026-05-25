@@ -69,7 +69,8 @@ Planned public-safe expansion:
 - MVP42 public Windows adapter plan
 - MVP43 public macOS adapter plan
 - MVP44 public Android adapter plan
-- future iOS review-only adapter plan
+- MVP45 public iOS adapter plan
+- future cross-platform adapter sample outputs
 
 The ARMOR core should remain platform-neutral. Platform-specific behavior should live in adapters.
 
