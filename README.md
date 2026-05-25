@@ -8,6 +8,7 @@ Standalone showcase root:
 
 - this repository
 - quickstart: QUICKSTART.md
+- demo: DEMO.md
 - architecture: ARCHITECTURE.md
 - artifact index: ARTIFACTS.md
 - release notes: RELEASE_NOTES.md
