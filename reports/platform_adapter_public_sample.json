@@ -1,0 +1,243 @@
+{
+  "actions_enabled": false,
+  "adapter_samples_present": true,
+  "enforcement": false,
+  "mode": "MVP46_PLATFORM_ADAPTER_PUBLIC_SAMPLES_REVIEW_ONLY",
+  "platform_adapter_samples": [
+    {
+      "actions_enabled": false,
+      "adapter_version": "0.1-review-only",
+      "denied_capabilities": [
+        {
+          "denied": true,
+          "name": "enforcement",
+          "reason": "Public adapter sample keeps enforcement disabled"
+        },
+        {
+          "denied": true,
+          "name": "remediation",
+          "reason": "Public adapter sample keeps remediation disabled"
+        },
+        {
+          "denied": true,
+          "name": "private_target_scan",
+          "reason": "Public adapter sample does not perform private target scans"
+        }
+      ],
+      "enforcement": false,
+      "operator_notes": [
+        "Public-safe sample only",
+        "No runtime adapter implementation",
+        "No action execution"
+      ],
+      "platform": "linux",
+      "platform_capabilities": [
+        {
+          "name": "release_seal_status",
+          "notes": "Public sample reports seal posture without executing actions",
+          "review_only": true,
+          "supported": true
+        }
+      ],
+      "posture_checks": [
+        {
+          "check_id": "adapter_review_only_lock",
+          "status": "pass",
+          "summary": "Adapter sample preserves review-only safety flags"
+        }
+      ],
+      "remediation_enabled": false,
+      "review_only": true,
+      "target_scan_executed": false
+    },
+    {
+      "actions_enabled": false,
+      "adapter_version": "0.1-review-only",
+      "denied_capabilities": [
+        {
+          "denied": true,
+          "name": "enforcement",
+          "reason": "Public adapter sample keeps enforcement disabled"
+        },
+        {
+          "denied": true,
+          "name": "remediation",
+          "reason": "Public adapter sample keeps remediation disabled"
+        },
+        {
+          "denied": true,
+          "name": "private_target_scan",
+          "reason": "Public adapter sample does not perform private target scans"
+        }
+      ],
+      "enforcement": false,
+      "operator_notes": [
+        "Public-safe sample only",
+        "No runtime adapter implementation",
+        "No action execution"
+      ],
+      "platform": "windows",
+      "platform_capabilities": [
+        {
+          "name": "release_seal_status",
+          "notes": "Public sample reports seal posture without executing actions",
+          "review_only": true,
+          "supported": true
+        }
+      ],
+      "posture_checks": [
+        {
+          "check_id": "adapter_review_only_lock",
+          "status": "pass",
+          "summary": "Adapter sample preserves review-only safety flags"
+        }
+      ],
+      "remediation_enabled": false,
+      "review_only": true,
+      "target_scan_executed": false
+    },
+    {
+      "actions_enabled": false,
+      "adapter_version": "0.1-review-only",
+      "denied_capabilities": [
+        {
+          "denied": true,
+          "name": "enforcement",
+          "reason": "Public adapter sample keeps enforcement disabled"
+        },
+        {
+          "denied": true,
+          "name": "remediation",
+          "reason": "Public adapter sample keeps remediation disabled"
+        },
+        {
+          "denied": true,
+          "name": "private_target_scan",
+          "reason": "Public adapter sample does not perform private target scans"
+        }
+      ],
+      "enforcement": false,
+      "operator_notes": [
+        "Public-safe sample only",
+        "No runtime adapter implementation",
+        "No action execution"
+      ],
+      "platform": "macos",
+      "platform_capabilities": [
+        {
+          "name": "release_seal_status",
+          "notes": "Public sample reports seal posture without executing actions",
+          "review_only": true,
+          "supported": true
+        }
+      ],
+      "posture_checks": [
+        {
+          "check_id": "adapter_review_only_lock",
+          "status": "pass",
+          "summary": "Adapter sample preserves review-only safety flags"
+        }
+      ],
+      "remediation_enabled": false,
+      "review_only": true,
+      "target_scan_executed": false
+    },
+    {
+      "actions_enabled": false,
+      "adapter_version": "0.1-review-only",
+      "denied_capabilities": [
+        {
+          "denied": true,
+          "name": "enforcement",
+          "reason": "Public adapter sample keeps enforcement disabled"
+        },
+        {
+          "denied": true,
+          "name": "remediation",
+          "reason": "Public adapter sample keeps remediation disabled"
+        },
+        {
+          "denied": true,
+          "name": "private_target_scan",
+          "reason": "Public adapter sample does not perform private target scans"
+        }
+      ],
+      "enforcement": false,
+      "operator_notes": [
+        "Public-safe sample only",
+        "No runtime adapter implementation",
+        "No action execution"
+      ],
+      "platform": "android",
+      "platform_capabilities": [
+        {
+          "name": "release_seal_status",
+          "notes": "Public sample reports seal posture without executing actions",
+          "review_only": true,
+          "supported": true
+        }
+      ],
+      "posture_checks": [
+        {
+          "check_id": "adapter_review_only_lock",
+          "status": "pass",
+          "summary": "Adapter sample preserves review-only safety flags"
+        }
+      ],
+      "remediation_enabled": false,
+      "review_only": true,
+      "target_scan_executed": false
+    },
+    {
+      "actions_enabled": false,
+      "adapter_version": "0.1-review-only",
+      "denied_capabilities": [
+        {
+          "denied": true,
+          "name": "enforcement",
+          "reason": "Public adapter sample keeps enforcement disabled"
+        },
+        {
+          "denied": true,
+          "name": "remediation",
+          "reason": "Public adapter sample keeps remediation disabled"
+        },
+        {
+          "denied": true,
+          "name": "private_target_scan",
+          "reason": "Public adapter sample does not perform private target scans"
+        }
+      ],
+      "enforcement": false,
+      "operator_notes": [
+        "Public-safe sample only",
+        "No runtime adapter implementation",
+        "No action execution"
+      ],
+      "platform": "ios",
+      "platform_capabilities": [
+        {
+          "name": "release_seal_status",
+          "notes": "Public sample reports seal posture without executing actions",
+          "review_only": true,
+          "supported": true
+        }
+      ],
+      "posture_checks": [
+        {
+          "check_id": "adapter_review_only_lock",
+          "status": "pass",
+          "summary": "Adapter sample preserves review-only safety flags"
+        }
+      ],
+      "remediation_enabled": false,
+      "review_only": true,
+      "target_scan_executed": false
+    }
+  ],
+  "platform_count": 5,
+  "remediation_enabled": false,
+  "review_only": true,
+  "sample_runtime_enabled": false,
+  "target_scan_executed": false
+}

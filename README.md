@@ -11,6 +11,7 @@ Standalone showcase root:
 - cross-platform strategy: CROSS_PLATFORM_STRATEGY.md
 - platform capability matrix: PLATFORM_CAPABILITY_MATRIX.md
 - platform adapter contract: PLATFORM_ADAPTER_CONTRACT.md
+- platform adapter public samples: PLATFORM_ADAPTER_PUBLIC_SAMPLES.md
 - cross-platform release seal: CROSS_PLATFORM_RELEASE_SEAL.md
 - linux adapter plan: LINUX_ADAPTER_PLAN.md
 - windows adapter plan: WINDOWS_ADAPTER_PLAN.md
